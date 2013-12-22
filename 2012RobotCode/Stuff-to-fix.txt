@@ -1,0 +1,25 @@
+This is a list of different problems that people see.
+Please use this and inform the associated person instead of just changing their code.
+-David
+
+Need to set motor speed to "0" in the "End" of a command:
+-MoveTipper -> does the motor need to stop?
+-DriveWithJoystick -> I don't know if this ends.. but you might want it just in case.
+
+
+From Review Session:
+-AutoAim for Turret
+-Everything else for turret.
+-Fire needs to be updated.
+-Add moveup and movedown commands.
+-Add command "ManualTurretControl" manual control will override autoAim
+-Observe and implement how inturrupting commands work and how manual/auto
+ will exchange.
+
+ 
+ 
+From Post-Build Review:
+-Check timeouts and Prime and MoveUp
+-Do we want fire to be just a move up and force operator to prime?
+-Review comment in autocollect regarding parallel commands
+-Verify Manual Turret control during auto aim
